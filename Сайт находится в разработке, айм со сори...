@@ -67,8 +67,8 @@
 </head>
 <body>
 	<h1>Skillbox</h1>
-	<h2>Моё прохождение курса начнётся через: <span id="countdown"></span></h2>
-	<h3>Вы можете связаться с нами:</h3>
+	<h2>Я стану программистом через: <span id="countdown"></span></h2>
+	<h3>Вы можете связаться со мной:</h3>
 	<div>Телефон: +7 (495) 154-09-36</div>
 	<div>Instagram: <a href="https://www.instagram.com/smoking_session" target="_blank"> @smoking_session </a> </div>
 	<div> <a href="https://www.youtube.com/watch?v=CSvFpBOe8eY" target="_blank"> <font>   Ссылка на YouTube </font>  </a> </div>
