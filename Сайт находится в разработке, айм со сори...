@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<title>Bodyanixxx — сайт находится в разработке</title>
+	<title>Сорян, сайт находится в разработке</title>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<style>
 	html, body {
@@ -66,7 +66,7 @@
 	</script>
 </head>
 <body>
-	<h1>Skillbox</h1>
+	<h1>Bodyanixxx</h1>
 	<h2>Я стану программистом через: <span id="countdown"></span></h2>
 	<h3>Вы можете связаться со мной:</h3>
 	<div>Телефон: +7 (495) 154-09-36</div>
