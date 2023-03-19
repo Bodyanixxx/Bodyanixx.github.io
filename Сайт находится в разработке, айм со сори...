@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<title>Skillbox — сайт находится в разработке</title>
+	<title>Bodyanixxx — сайт находится в разработке</title>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<style>
 	html, body {
@@ -70,8 +70,8 @@
 	<h2>Моё прохождение курса начнётся через: <span id="countdown"></span></h2>
 	<h3>Вы можете связаться с нами:</h3>
 	<div>Телефон: +7 (495) 154-09-36</div>
-	<div>Instagram: <a href="https://www.instagram.com/skillbox.ru" target="_blank"> @skillbox.ru </a> </div>
-	<div> <a href="https://www.youtube.com/channel/UCHJZFCpwlXV7Sie1dV6pQLw" target="_blank"> <font>   Ссылка на YouTube </font>  </a> </div>
-	<div> <a href="mailto:hello@skillbox.ru" target="_blank">  Email  </a>  </div> 
+	<div>Instagram: <a href="https://www.instagram.com/smoking_session" target="_blank"> @smoking_session </a> </div>
+	<div> <a href="https://www.youtube.com/watch?v=CSvFpBOe8eY" target="_blank"> <font>   Ссылка на YouTube </font>  </a> </div>
+	<div> <a href="mailto:bogdankuryschev01@gmail.com" target="_blank">  Email  </a>  </div> 
 </body>
 </html>
