@@ -1,0 +1,65 @@
+
+print("Система расчёта штрафов в Германии");
+
+Car_Speed = 155
+is_Town = True
+
+
+fineFor1to10 = 30
+fineFor11to15 = 50
+fineFor16to20 = 70
+fineFor21to25 = 115
+fineFor26to30 = 180
+fineFor31to40 = 260
+fineFor41to50 = 400
+fineFor51to60 = 560
+fineFor61to70 = 700
+fineFor70andMore = 800
+
+
+
+
+
+town_Speed = 50
+country_Speed = 90
+
+
+if is_Town:
+    over_Speed = Car_Speed - town_Speed
+
+else:
+    over_Speed = Car_Speed - country_Speed
+
+
+if over_Speed < 1 :
+    print("Скорость не превышена или превышена незначительно")
+
+elif over_Speed >= 1 and over_Speed < 10 :
+    print("Штраф: " , fineFor1to10 , "euro")
+
+elif over_Speed >= 11 and over_Speed < 15:
+    print("Штраф: ", fineFor11to15, "euro")
+
+elif over_Speed >= 16 and over_Speed < 20:
+    print("Штраф: ", fineFor16to20, "euro")
+
+elif over_Speed >= 21 and over_Speed < 25:
+    print("Штраф: ", fineFor21to25, "euro")
+
+elif over_Speed >= 26 and over_Speed < 30:
+    print("Штраф: ", fineFor26to30, "euro")
+
+elif over_Speed >= 31 and over_Speed < 40:
+    print("Штраф: ", fineFor31to40, "euro")
+
+elif over_Speed >= 41 and over_Speed < 50:
+    print("Штраф: ", fineFor41to50, "euro")
+
+elif over_Speed >= 51 and over_Speed < 60:
+    print("Штраф: ", fineFor51to60, "euro")
+
+elif over_Speed >= 61 and over_Speed < 70:
+    print("Штраф: ", fineFor61to70, "euro", "Лишение водительских прав")
+
+elif over_Speed >= 70 :
+    print("Штраф: ", fineFor70andMore, "euro", ", лишение водительских прав")
