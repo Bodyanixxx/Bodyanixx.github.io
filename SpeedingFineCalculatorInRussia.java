@@ -1,4 +1,4 @@
-public class russia {	public static void main(String[] args) {
+public class Russia {	public static void main(String[] args) {
     System.out.println("Система расчёта штрафов");
 
     int carSpeed = 162;
@@ -12,10 +12,14 @@ public class russia {	public static void main(String[] args) {
     int townSpeed = 60;
     int countrySpeed = 90;
     int overSpeed;
-    if (isTown) { // в городе
+    
+    // в городе
+    if (isTown) { 
         overSpeed = carSpeed - townSpeed;
     }
-    else {
+    
+    // за городом
+    else { 
         overSpeed = carSpeed - countrySpeed;
     }
 
