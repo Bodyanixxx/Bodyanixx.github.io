@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Система расчёта штрафов в Германии");
 
-       int CarSpeed = 95;
+       int CarSpeed = 155;
        boolean isTown = false;
 
         int fineFor1to10 = 30 ;
@@ -16,26 +16,21 @@ public class Main {
         int fineFor61to70 = 700;
         int fineFor70andMore = 800;
 
-        int finecFor1to10 = 20 ;
-        int finecFor11to15 = 30;
-        int finecFor16to20 = 60;
-        int finecFor21to25 = 100;
-        int finecFor26to30 = 150;
-        int finecFor31to40 = 200;
-        int finecFor41to50 = 320;
-        int finecFor51to60 = 480;
-        int finecFor61to70 = 600;
-        int finecFor70andMore = 700;
+
 
 
 
         int townSpeed = 50;
         int countrySpeed = 90;
-        int overSpeed;
-        if (isTown) { // в городе
+       int overSpeed ;
+
+        // в городе
+        if (isTown) { 
             overSpeed = CarSpeed - townSpeed;
         }
-        else { // за городом
+        
+        // за городом
+        else   { 
             overSpeed = CarSpeed - countrySpeed;
         }
 
@@ -75,29 +70,6 @@ public class Main {
         }
 
 
-        if (overSpeed < 1) {
-                System.out.println("Скорость не превышена или превышена незначительно");
-            } else if (overSpeed >= 1 && overSpeed < 10) {
-                System.out.println("Штраф: " + finecFor1to10  + " euro");
-            } else if (overSpeed >= 11 && overSpeed < 15) {
-                System.out.println("Штраф: " + finecFor11to15 + " euro");
-            } else if (overSpeed >= 16 && overSpeed < 20) {
-                System.out.println("Штраф: " + finecFor16to20 + " euro");
-            } else if (overSpeed >= 21 && overSpeed < 25) {
-                System.out.println("Штраф: " + finecFor21to25 + " euro");
-            } else if (overSpeed >= 26 && overSpeed < 30) {
-                System.out.println("Штраф: " + finecFor26to30 + " euro");
-            } else if (overSpeed >= 31 && overSpeed < 40) {
-                System.out.println("Штраф: " + finecFor31to40 + " euro");
-            } else if (overSpeed >= 41 && overSpeed < 50) {
-                System.out.println("Штраф: " + finecFor41to50 + " euro");
-            } else if (overSpeed >= 51 && overSpeed < 60) {
-                System.out.println("Штраф: " + finecFor51to60 + " euro");
-            } else if (overSpeed >= 61 && overSpeed < 70) {
-                System.out.println("Штраф: " + finecFor61to70 + " euro");
-            } else if (overSpeed >= 70) {
-                System.out.println("Штраф: " + finecFor70andMore + " euro");
-            }
 
     }
 
